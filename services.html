@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PFC - Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Service Card Styling */
+        .service-card {
+            transition: transform 0.3s ease-in-out;
+            border: none;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            background-color: #e8dacb;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        .service-card:hover {
+            transform: scale(1.05);
+        }
+        
+        .service-card img {
+            width: 300px; /* Smaller image size */
+            height: 300px; /* Square size */
+            display: block;
+            margin: 10px auto;
+            border-radius: 15px; /* Rounded corners */
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .service-card img:hover {
+            transform: rotate(3deg) scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">PFC</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reviews.html">Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Services Section -->
+    <div class="container py-5">
+        <h2 class="text-center display-4">Our Services</h2>
+        <p class="text-center lead">We provide high-quality fence installation, repairs, and custom designs that enhance your property's security and aesthetics.</p>
+        
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card service-card text-center">
+                    <img src="images/service1.jpg" alt="Fence Installation">
+                    <div class="card-body">
+                        <h5 class="card-title">Fence Installation</h5>
+                        <p class="card-text">Our professional fence installation ensures durability, security, and aesthetic appeal for your property. We work with a variety of materials to match your style and needs.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card text-center">
+                    <img src="images/service2.jpg" alt="Fence Repair">
+                    <div class="card-body">
+                        <h5 class="card-title">Fence Repair</h5>
+                        <p class="card-text">We provide quick and cost-effective fence repairs to restore strength and appearance. Whether it's storm damage or aging, we can fix it!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card service-card text-center">
+                    <img src="images/service3.jpg" alt="Custom Designs">
+                    <div class="card-body">
+                        <h5 class="card-title">Custom Designs</h5>
+                        <p class="card-text">Transform your outdoor space with custom fence designs tailored to your unique style and functional needs. Get creative with different materials and finishes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 PFC - Privacy Fence Construction | Excellence in Every Fence</p>
+    </footer>
+</body>
+</html>

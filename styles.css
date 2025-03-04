@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f1ea;
+    color: #3d2c1e;
+}
+
+.navbar {
+    background-color: #5a3e2b;
+    padding: 15px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #f4f1ea !important;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #ffffff !important;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #f4a261;
+    color: #5a3e2b !important;
+    transform: scale(1.1);
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: #f4a261;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-toggler:hover {
+    background-color: #e76f51;
+    transform: scale(1.1);
+}
+
+/* Hero Section */
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Card Styles for Services */
+.card {
+    margin: 10px 0;
+    border: none;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    background-color: #e8dacb;
+    color: #3d2c1e;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #8c5a44;
+    border-color: #8c5a44;
+}
+.btn-primary:hover {
+    background-color: #5a3e2b;
+    border-color: #5a3e2b;
+}
+
+/* Footer */
+footer {
+    background-color: #5a3e2b;
+    color: white;
+    padding: 10px;
+}

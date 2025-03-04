@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PFC - Reviews</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">PFC</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-5 text-center">
+        <h2>Drop us a like and follow on Facebook</h2>
+        <a href="https://www.facebook.com/profile.php?id=61558523044199" target="_blank">
+            <img src="images/Download.png" alt="Facebook" width="50">
+        </a> <!-- ✅ Properly closed the anchor tag -->
+    </div>
+<!-- Review Form Section -->
+<div class="container py-5">
+    <h2 class="text-center display-4">Leave a Review</h2>
+    <p class="text-center">We appreciate your feedback! Please fill out the form below to let us know about your experience.</p>
+
+    <form id="reviewForm" class="mx-auto" style="max-width: 600px;">
+        <!-- Star Rating -->
+        <label for="rating" class="form-label">Rate Our Service:</label>
+        <select class="form-select" id="rating" required>
+            <option value="">Select a Rating</option>
+            <option value="5">⭐⭐⭐⭐⭐ - Excellent</option>
+            <option value="4">⭐⭐⭐⭐ - Good</option>
+            <option value="3">⭐⭐⭐ - Average</option>
+            <option value="2">⭐⭐ - Poor</option>
+            <option value="1">⭐ - Very Bad</option>
+        </select>
+
+        <!-- Service Provided -->
+        <label for="service" class="form-label mt-3">Service Provided:</label>
+        <select class="form-select" id="service" required>
+            <option value="">Select a Service</option>
+            <option value="Custom Fencing">Custom Fencing</option>
+            <option value="Fence Repair">Fence Repair</option>
+            <option value="Other">Other</option>
+        </select>
+
+        <!-- Review Comment -->
+        <label for="comment" class="form-label mt-3">Your Feedback:</label>
+        <textarea class="form-control" id="comment" rows="4" placeholder="Describe your experience..."></textarea>
+
+        <!-- Contact Info (Optional) -->
+        <h5 class="mt-4">Optional Contact Information</h5>
+        <input type="text" class="form-control mt-2" id="name" placeholder="Your Name">
+        <input type="email" class="form-control mt-2" id="email" placeholder="Your Email">
+        <input type="tel" class="form-control mt-2" id="phone" placeholder="Your Phone Number">
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-primary mt-4 w-100">Submit Review</button>
+    </form>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 PFC - Privacy Fence Construction | Your Opinion Matters</p>
+</footer>
+
+</body>
+</html>
